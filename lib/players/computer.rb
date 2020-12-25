@@ -16,7 +16,7 @@ module Players
         else
         self.move
         end 
-        m.to_s
+        
         
         end 
         end
