@@ -69,7 +69,7 @@ class Game
  def play
    while !over?
    turn
-   puts self.board.
+   puts self.board.display
    end 
    
    if winner 
