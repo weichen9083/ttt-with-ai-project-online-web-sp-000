@@ -4,8 +4,8 @@ module Players
       class Human < Player
         # your code here
         def move(board)
-          move = gets.strip
-          move
+          m = gets.strip
+          m
         end 
       end
       

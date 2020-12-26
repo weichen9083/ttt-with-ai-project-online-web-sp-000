@@ -12,9 +12,9 @@ module Players
         m = rand(9) + 1 
         
         if board.valid_move?(m) 
-         m.to_s
+        m.to_s
         else
-        self.move
+        move(board)
         end 
         
         
