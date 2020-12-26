@@ -23,9 +23,9 @@ def start
   0 - Computer VS Computer
   1 - You VS Computer
   2 - You VS Your friend"
-
   input = gets.strip
   
+  put "lets the game begin, pick a number between 1-9" 
   
 case input
     when "0"
