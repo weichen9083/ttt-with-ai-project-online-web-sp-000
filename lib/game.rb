@@ -60,8 +60,8 @@ class Game
     
     m =  self.current_player.move(self.board)
     if !self.board.valid_move?(m) 
-    puts "spot taken choose the different spot"
-     turn
+    puts "spot taken, choose the different spot"
+    turn
      
     end 
     self.board.update(m,self.current_player)
